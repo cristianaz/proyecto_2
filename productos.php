@@ -54,7 +54,7 @@ $productos = obtenerProductos();
                             <form action="eliminar_producto.php" method="post">
                                 <input type="hidden" name="id_producto" value="<?php echo $producto->id ?>">
                                 <button class="button is-danger">
-                                    <i class="fa fa-trash-o"></i>
+                                <i class="fas fa-trash-alt"></i>
                                 </button>
                             </form>
                         </td>

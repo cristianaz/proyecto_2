@@ -58,7 +58,8 @@ $productos = obtenerProductos();
                                 <i class="fa fa-check"></i>&nbsp;En el carrito
                             </span>
                             <button class="button is-danger">
-                                <i class="fa fa-trash-o"></i>&nbsp;Quitar
+                            <i class="fas fa-trash-alt"></i>&nbsp;Quitar
+                                
                             </button>
                         </form>
                     <?php } else { ?>
