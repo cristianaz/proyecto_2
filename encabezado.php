@@ -64,7 +64,7 @@
                 </div>
                 <div class="navbar-item">
                     <div class="buttons">
-                        <a target="_blank" rel="noreferrer" href="https://parzibyte.me/l/fW8zGd" class="button is-primary">
+                        <a target="_blank" rel="noreferrer" href="#" class="button is-primary">
                             <strong>Soporte y ayuda</strong>
                         </a>
                     </div>
