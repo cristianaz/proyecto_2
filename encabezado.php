@@ -23,7 +23,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="home.php">
                 <img src="img/logo.png" width="45" height="45" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -34,10 +34,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link" href="home.php">Inicio</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="acerca.html">Acerca de <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="acerca.php">Acerca de <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item  active dropdown">
                     <a class="nav-link" href="productos.php">Productos <span class="sr-only">(current)</span></a>
@@ -45,9 +45,7 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="tienda.php">Tienda<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="contacto.html">Contacto<span class="sr-only">(current)</span></a>
-                    </li>
+                   
                 </ul>
             </div>
             <div class="navbar-end">

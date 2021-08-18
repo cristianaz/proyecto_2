@@ -23,7 +23,7 @@ $productos = obtenerProductos();
                     <tr>
                         <td><?php echo $producto->nombre ?></td>
                         <td><?php echo $producto->descripcion ?></td>
-                        <td>$<?php echo number_format($producto->precio, 2) ?></td>
+                        <td>Q<?php echo number_format($producto->precio, 2) ?></td>
                         <td>
                             <form action="eliminar_producto.php" method="post">
                                 <input type="hidden" name="id_producto" value="<?php echo $producto->id ?>">

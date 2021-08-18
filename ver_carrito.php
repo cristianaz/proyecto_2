@@ -41,7 +41,7 @@ if (count($productos) <= 0) {
                         <tr>
                             <td><?php echo $producto->nombre ?></td>
                             <td><?php echo $producto->descripcion ?></td>
-                            <td>$<?php echo number_format($producto->precio, 2) ?></td>
+                            <td>Q<?php echo number_format($producto->precio, 2) ?></td>
                             <td>
                                 <form action="eliminar_del_carrito.php" method="post">
                                     <input type="hidden" name="id_producto" value="<?php echo $producto->id ?>">
@@ -58,7 +58,7 @@ if (count($productos) <= 0) {
                     <tr>
                         <td colspan="2" class="is-size-4 has-text-right"><strong>Total</strong></td>
                         <td colspan="2" class="is-size-4">
-                            $<?php echo number_format($total, 2) ?>
+                            Q<?php echo number_format($total, 2) ?>
                         </td>
                     </tr>
                 </tfoot>
